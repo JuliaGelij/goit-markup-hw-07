@@ -1,16 +1,16 @@
 .logo {
-  color: var(--brand-color-blue);
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  outline: none;
+    color: var(--brand-color-blue);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    outline: none;
 
-  &--black {
-    color: var(--brand-color-black);
-  }
-  &--white {
-    color: var(--brand-color-white);
-  }
+    &--black {
+        color: var(--brand-color-black);
+    }
+    &--white {
+        color: var(--brand-color-white);
+    }
 }

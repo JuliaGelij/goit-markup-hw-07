@@ -23,11 +23,25 @@
         outline: none;
     }
 
-    &__svg {
+    &__svg--team {
         fill: var(--brand-color-gray3);
     }
 
     &__icon:is(:hover, :focus) .social-media__svg {
+        fill: var(--brand-color-white);
+    }
+
+    &__icon--footer {
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-bottom: 16px;
+    }
+
+    &__icon--footer:is(:hover, :focus) {
+        background-color: var(--brand-color-blue);
+        outline: none;
+    }
+
+    &__svg-footer {
         fill: var(--brand-color-white);
     }
 }
