@@ -1,5 +1,10 @@
-@use "./utils/vars" as *;
-@use "./utils/global" as *;
-@import "./components/header";
-@import "./components/logo";
-@import "./components/main-section";
+@use './utils/vars' as *;
+@use './utils/global' as *;
+@import './components/header';
+@import './components/logo';
+@import './components/main-section';
+@import './components/description';
+@import './components/activities';
+@import './components/team';
+@import './components/social-media';
+@import './components/clients';
