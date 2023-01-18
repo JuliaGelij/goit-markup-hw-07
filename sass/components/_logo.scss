@@ -7,11 +7,11 @@
     text-decoration: none;
     outline: none;
 
-    &--black {
+    &__studio {
         color: var(--brand-color-black);
     }
 
-    &--white {
+    &__studio--white {
         color: var(--brand-color-white);
     }
 }
