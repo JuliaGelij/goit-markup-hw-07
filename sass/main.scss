@@ -1,3 +1,5 @@
-@import "./utils/vars";
-@import "./utils/global";
+@use "./utils/vars" as *;
+@use "./utils/global" as *;
 @import "./components/header";
+@import "./components/logo";
+@import "./components/main-section";

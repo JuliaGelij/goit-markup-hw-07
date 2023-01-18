@@ -1,0 +1,26 @@
+.description {
+  background-color: var(--brand-color-white);
+  margin-bottom: -94px;
+
+  &__list {
+    display: flex;
+
+    gap: 30px;
+  }
+
+  &__icon {
+    width: 270px;
+
+    height: 120px;
+
+    background-color: var(--brand-color-gray);
+
+    align-items: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    border-radius: 4px;
+  }
+}
